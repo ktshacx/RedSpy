@@ -9,6 +9,13 @@ A information gathering tool for Linux &amp; Termux
 ## Recomended Devices
 This tool is usually created for Linux & Termux
 
+## Features
+1) Ports Scanner
+2) Ip Tracker
+3) Admin Page Finder
+4) Whois
+5) Domains Finder
+
 ## Installation
 1) `git clone https://github.com/krishtechstudio/RedSpy`
 2) `cd RedSpy`
