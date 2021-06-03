@@ -78,13 +78,15 @@ function linux(){
         fi
     echo -e "$red[$green+$red]$yellow Installing ...$off"
     mkdir "/usr/share/RedSpy"
-    cp "RedSpy.py" "/usr/share/RedSpy"
-    cp "install.sh" "/usr/share/RedSpy"
-    cp "reqirements.txt" "/usr/share/RedSpy"
-    cp "banner.txt" "/usr/share/RedSpy"
+    sudo cp "RedSpy.py" "/usr/share/RedSpy"
+    sudo cp "install.sh" "/usr/share/RedSpy"
+    sudo cp "RedSpy.desktop" "/usr/share/applications"
+    sudo cp "redspy_logo.png" "/usr/share/icons"
+    sudo cp "reqirements.txt" "/usr/share/RedSpy"
+    sudo cp "banner.txt" "/usr/share/RedSpy"
     echo "#!/usr/bin/bash 
 python3 /usr/share/RedSpy/RedSpy.py" '${1+"$@"}' > "RedSpy";
-cp "RedSpy" "/usr/local/bin"
+sudo cp "RedSpy" "/usr/local/bin"
 chmod +x "/usr/bin/RedSpy"
 rm RedSpy
 if [ -d "/usr/share/RedSpy" ] ;
