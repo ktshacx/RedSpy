@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=RedSpy
+Comment=RedSpy
+Encoding=UTF-8
+Exec=sh -c "RedSpy;${SHELL:-bash}"
+Icon=redspy_logo.png
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Kali-Package=RedSpy
+Name[C]=RedSpy
