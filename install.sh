@@ -18,6 +18,7 @@ function banner() {
 function termux(){
     echo -e "$red [$green+$red]$yellow Installing Python ...$off";
     apt-get install python -y
+    apt-get install nmap -y
     echo -e "$red [$green+$red]$yellow Installing Requirements ...$off";
     pip install -r requirements.txt
     echo -e "$red [$green+$red]$yellow Checking Directories ...$off";
