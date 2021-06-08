@@ -9,7 +9,7 @@ import json
 os.system("clear")
 def animated_loading():
     chars = "/—\|" 
-    startchars = ['Starting redeye', 'sTarting redeye','stArting redeye','staRting redeye','starTing redeye','startIng redeye','startiNg redeye','startinG redeye','starting Redeye','starting rEdeye','starting reDeye', 'starting redEye','starting redeYe','starting redeyE']
+    startchars = ['Starting redspy', 'sTarting redspy','stArting redspy','staRting redspy','starTing redspy','startIng redspy','startiNg redspy','startinG redspy','starting Redspy','starting rEdspy','starting reDspy', 'starting redSpy','starting redsYe','starting redspY']
     for c in startchars:
         sys.stdout.write('\r'+c+"...")
         time.sleep(.1)
